@@ -1,0 +1,25 @@
+body {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    font-family: "Courier New", monospace;
+    padding: 40px;
+}
+
+a {
+    color: #89b4ff;
+    text-decoration: none;
+}
+
+.hidden {
+    color: #0a0a0a;
+}
+
+.glitch {
+    animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+    0%   { opacity: 1; }
+    50%  { opacity: 0.2; }
+    100% { opacity: 1; }
+}
